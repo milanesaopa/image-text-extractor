@@ -15,14 +15,15 @@ npm i @xcrap/image-text-extractor
 **Xcrap Image Text Extractor** provides an *async extractor* that can be used in an HTML parsing model just like any extractor:
 
 ```ts
+import { extractImageText } from "@xcrap/image-text-extractor"
 import { HtmlParsingModel } from "@xcrap/parser"
 
 const parsingModel = new ParsingModel({
-    imageTexts: {
-        query: "img",
-        multiple: true,
-        extractor: extractImageText({ lang: "eng" })
-    }
+	imageTexts: {
+		query: "img",
+		multiple: true,
+		extractor: extractImageText({ lang: "eng" })
+	}
 })
 ```
 
