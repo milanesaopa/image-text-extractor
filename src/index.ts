@@ -7,8 +7,8 @@ export type ExtractTextFromImageOptions = Partial<Tesseract.Config> & {
 
 export const extractImageText = ({
     transformSrc,
-    tesseractOptions
-}: ExtractTextFromImageOptions): ExtractorFunction => {
+    ...tesseractOptions
+}: ExtractTextFromImageOptions = {}): ExtractorFunction => {
     return async (element) => {
         const isImage = element.tagName.toLowerCase() === "img"
     
@@ -27,3 +27,5 @@ export const extractImageText = ({
         return text
     }
 }
+
+extractImageText({ lang: "eng" })
