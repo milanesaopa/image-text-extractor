@@ -2,11 +2,11 @@ import { ExtractorFunction } from "@xcrap/parser"
 import Tesseract from "node-tesseract-ocr"
 
 export type ExtractTextFromImageOptions = Partial<Tesseract.Config> & {
-    transformImageSource?: (src: string) => string
+    transformSrc?: (src: string) => string
 }
 
 export const extractImageText = ({
-    transformImageSource,
+    transformSrc,
     tesseractOptions
 }: ExtractTextFromImageOptions): ExtractorFunction => {
     return async (element) => {
@@ -17,7 +17,7 @@ export const extractImageText = ({
         }
     
         const rawImageSource = element.attrs.src
-        const transofrmedImageSource = transformImageSource ? transformImageSource(rawImageSource) : rawImageSource
+        const transofrmedImageSource = transformSrc ? transformSrc(rawImageSource) : rawImageSource
     
         const text = await Tesseract.recognize(
             transofrmedImageSource,
