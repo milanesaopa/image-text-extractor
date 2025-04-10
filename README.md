@@ -43,7 +43,7 @@ const parsingModel = new ParsingModel({
 
 > Check out more options at [node-tesseract-ocr](https://www.npmjs.com/package/node-tesseract-ocr).
 
-🤝 Contributing
+## 🤝 Contributing
 
 - Want to contribute? Follow these steps:
 - Fork the repository.
